@@ -1,0 +1,147 @@
+ /* Accesorios */
+ .containerAcc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "gorra1 gorra-2 gorra-4";
+    justify-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-style: inherit
+}
+
+.containerAcc div img {
+    width: 40vh;
+    height: 40vh;
+    margin: 5px;
+    border: 2px black solid;
+}
+
+.gorra1 {
+    grid-area: gorra1;
+}
+
+.gorra-2 {
+    grid-area: gorra-2;
+}
+
+.gorra-4 {
+    grid-area: gorra-4;
+}
+
+
+/* Deportivo */
+.containerD {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "short1 short-2 short-3 calza-1";
+    justify-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-style: inherit;
+}
+
+.containerD div img {
+    width: 40vh;
+    height: 40vh;
+    margin: 10px;
+    border: 2px black solid;
+}
+
+/*promos*/
+.PromoClass {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "foto-1 foto2 foto3"
+        "foto-4 foto-5 foto-6";
+    justify-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-style: inherit;
+}
+
+
+.PromoClass div img {
+    width: 40vh;
+    height: 40vh;
+    margin: 10px;
+    border: 2px black solid;
+}
+
+
+
+.FOTO1 {
+    grid-area: FOTO1;
+}
+
+.FOTO2 {
+    grid-area: FOTO2;
+}
+
+.FOTO3 {
+    grid-area: FOTO3;
+}
+
+.FOTO4 {
+    grid-area: FOTO4;
+}
+
+.FOTO-5 {
+    grid-area: FOTO-5;
+}
+
+.FOTO-6 {
+    grid-area: FOTO-6;
+}
+/*urbano*/
+.containerUr {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "foto-1 foto-2 foto-3 foto-4";
+        
+    justify-items: center
+}
+
+.containerUr div img {
+    width: 40vh;
+    height: 40vh;
+    margin: 10px;
+    border: 4px black solid;
+}
+
+.foto-1 {
+    grid-area: foto-1;
+}
+
+.foto-2 {
+    grid-area: foto-2;
+}
+
+.foto-3 {
+    grid-area: foto-3;
+}
+
+.foto-4 {
+    grid-area: foto-4;
+}
+
+
+
+
+
+

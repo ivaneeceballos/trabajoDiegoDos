@@ -1,0 +1,358 @@
+/* Responsive 768px */
+/* index */
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+
+    .imagen1 {
+        height: 230px;
+        width: 230px;
+        border: black 3px solid;
+        margin: 20px;
+    }
+
+    .img {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        border: 4px solid black;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Accesorios */
+    .containerAcc {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "gorra1" 
+            "gorra-2"        
+            "gorra-4";
+        justify-items: center;
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit
+    }
+
+    .containerAcc div img {
+        width: 30vh;
+        height: 30vh;
+        margin: 10px;
+        border: 2px black solid;
+    }
+
+    /* Deportivo */
+    .containerD {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "short1 short-2 "
+            "short-3 calza-1"
+            "calza-2 calza-3";
+        justify-items: center;
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit;
+    }
+
+    .containerD div img {
+        width: 25vh;
+        height: 25vh;
+        margin: 10px;
+        border: 2px black solid;
+    }
+
+    .PromoClass {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "foto-1 foto2"
+            "foto3 foto-4"
+            "foto-5 foto-6";
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit;
+        justify-content: space-evenly;
+    }
+
+    .PromoClass div img {
+        width: 30vh;
+        height: 30vh;
+        margin: 10px;
+        border: 2px black solid;
+    }
+
+/*generales*/
+/*verano*/
+.div_verano img {
+    height: 48vh;
+    width: 38.5vh;
+}
+/*carrusel*/
+.carousel-item{
+    max-width: 600px;
+  }
+/*portadas*/
+.portadas img {
+    height: 54vh;
+    width: 77.7vh;
+    border-bottom: 2px solid #08090A;
+    border-top: 2px solid #08090A;
+}
+
+}
+
+/*Responsive 480 */
+/* Index */
+@media (max-width: 480px) {
+    .nav {
+        display: flex;
+        border: 10px solid black;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Accesorios */
+    .containerAcc {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "gorra1" 
+            "gorra-2"
+            "gorra-3" 
+            "gorra-4"
+            "gorra5" 
+            "gorra-6";
+        justify-items: center;
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit
+    }
+
+    .containerAcc div img {
+        width: 25vh;
+        height: 25vh;
+        margin: 10px;
+        border: 2px black solid;
+    }
+
+    /* Deportivo */
+    .containerD {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "short1" 
+            "short-2"
+            "short-3" 
+            "calza-1"
+            "calza-2" 
+            "calza-3";
+        justify-items: center;
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit;
+        justify-content: center;
+    }
+
+    /*promos  */
+    .PromoClass {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "foto-1" 
+            "foto2"
+            "foto3" 
+            "foto-4"
+            "foto-5" 
+            "foto-6";
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit;
+        justify-content: space-evenly;
+    }
+
+
+    .PromoClass div img {
+        width: 25vh;
+        height: 25vh;
+        margin: 10px;
+        border: 2px black solid;
+    }
+
+    /* urbano */
+    .containerUr div img {
+        width: 25vh;
+        height: 25vh;
+        margin: 10px;
+        border: 2px black solid;
+    }
+    .containerUr {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "foto-1" 
+            "foto-2"
+            "foto-3"
+            "foto-4";
+        justify-items: center;
+    }
+    /*portadas 480*/
+    .portadas img {
+        max-width: 47vh;
+        max-height: 40vh;
+    }
+
+    /*carrusel*/
+
+    .carousel-item{
+        max-width: 300px;
+      }
+
+    /*verano*/
+    .div_verano img {
+        height: 37vh;
+        width: 23vh;
+    }
+
+}
+
+
+/*responsive 375*/
+@media (max-width: 375px) {
+    .nav {
+        display: flex;
+        border: 10px solid black;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*urbano*/
+
+    .containerUr {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "foto-1" 
+            "foto-2"
+            "foto-3"
+            "foto-4";
+        justify-items: center;
+    }
+    /*deportivo*/
+    /* Deportivo */
+    .containerD {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "short1" 
+            "short-2"
+            "short-3" 
+            "calza-1"
+            "calza-2" 
+            "calza-3";
+        justify-items: center;
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit;
+        justify-content: center;
+    }
+    /*accesorios*/
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "gorra1" 
+            "gorra-2"
+            "gorra-3" 
+            "gorra-4"
+            "gorra5" 
+            "gorra-6";
+        justify-items: center;
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit
+    }
+
+    .container div img {
+        width: 25vh;
+        height: 25vh;
+        margin: 10px;
+        border: 2px black solid;
+    }
+
+    /*promociones*/
+    .PromoClass {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "foto-1" 
+            "foto2"
+            "foto3" 
+            "foto-4"
+            "foto-5" 
+            "foto-6";
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit;
+        justify-content: space-evenly;
+    }
+
+    .PromoClass div img {
+        width: 25vh;
+        height: 25vh;
+        margin: 10px;
+        border: 2px black solid;
+    }
+
+
+    }
+

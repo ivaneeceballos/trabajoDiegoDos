@@ -1,0 +1,135 @@
+body {
+    background-color: $grisfondo;
+    margin: 8px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid black;
+    background-color:$principalblack;
+}
+
+.nav a {
+    color: $grisfondo;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 0px 30px 0px 30px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-style: inherit;
+}
+
+.nav a:hover {
+    color: rgb(3, 3, 4);
+    background-color:$grisfondo;
+}
+
+h3 {
+    background-color: $principalblack;
+    color:$grisfondo;
+}
+
+
+.parafo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color:$grisfondo;
+    background-color:$principalblack;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin: 20px;
+}
+
+.productos {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: px px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . .";
+  }
+  .urbano{
+    background-image: url(../../../Urbano.jpg);
+  }
+/*contenido index*/
+
+  .div_img--precio{
+    background-color: whitesmoke;
+    border: 4px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .div_img--precio p{
+    font-weight: bold;
+  }
+
+  .div_img--precio button:hover{
+    font-weight: bold;
+  }
+/*portada verano*/
+.div_verano{
+   display: flex;
+   justify-content: center;
+   border: 4px solid black;
+
+}
+.div_verano img{
+  
+    width: 100%;
+}
+/*slogans*/
+.slogan1{
+    text-align: center;
+    font-weight: bold;
+    color: $grisfondo;
+    background-color: $principalblack;
+}
+
+body{
+    border: 2px solid black;
+}
+
+/*carrousel*/
+
+.carrusel{
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: $principalblack;
+}
+.carousel-caption:hover p{
+  background-color: beige;
+  color: $principalblack;
+  border: 2px solid black;
+}
+.carousel-caption:hover h5{
+  background-color: beige;
+  color: $principalblack;
+  border: 2px solid black;  
+}
+.carousel-item{
+  max-width: 800px;
+}
+
+/*h3 deportivo*/
+.h3depor{
+  text-align: center;
+}
+
+
+/*portadas*/
+/*deportiva*/
+.portadas img{
+  height: 100vh;
+  width: 201vh;
+  border-bottom: 2px solid $principalblack;
+  border-top: 2px solid $principalblack;
+   }
